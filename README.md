@@ -16,6 +16,7 @@ This code is designed to run in Google Colab. To use it:
 
 1. Open [Google Colab](https://colab.research.google.com)
 
+Or
 #### Required Libraries
 ```python
 import pandas as pd
