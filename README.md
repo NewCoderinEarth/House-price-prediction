@@ -9,7 +9,21 @@ This project combines Machine Learning (Lasso Regression) with a web interface t
 - Feature importance analysis
 - Model performance metrics
 
-## Installation
+###Running the Code
+
+Google Colab (Recommended)
+This code is designed to run in Google Colab. To use it:
+
+1. Open [Google Colab](https://colab.research.google.com)
+
+#### Required Libraries
 ```python
-pip install -r requirements.txt
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+import matplotlib.pyplot as plt
+import seaborn as sns
 
